@@ -6,7 +6,6 @@ const Menucard = ({mdata}) => {
     <>
 
 
-
 <section className='main-card--cointainer'>  
 {mdata.map((curElem)=>{
      const {id,name,category,image,description} = curElem
